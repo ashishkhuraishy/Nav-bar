@@ -78,7 +78,7 @@ function validate(){
                 }
     const donation = document.getElementById("donation");
     donation.innerHTML = "";
-    donation.innerHTML = "$"+donations+" won in the last 24 hours";
+    donation.innerHTML = "$"+donations+" donated in the last 24 hours";
 }else{
   if(!cc){
     const ccError = document.getElementById("cc");
